@@ -1,0 +1,21 @@
+.menu__button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity .2s ease-in-out;
+}
+
+.menu__button:focus {
+  outline: none;
+}
+
+.menu__button:hover {
+  opacity: .8;
+}
