@@ -40,6 +40,15 @@
 @import url(../blocks/travel/__paragraph/travel__paragraph.css);
 /*стили для travels*/
 
+/*стили для people*/
+@import url(../blocks/people/people.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+/*стили для people*/
+
+
 /*стили для footer*/
 @import url(../blocks/footer/footer.css);
 /*стили для footer*/
