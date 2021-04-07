@@ -16,6 +16,17 @@
 @import url(../blocks/menu/__button/menu__button.css);
 /*стили для header*/
 
+/*стили для content*/
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__intro/content__intro.css);
+/*стили для content*/
+
+/*стили для intro*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/section-text/section-text.css);
+@import url(../blocks/section-text/__label/section-text__label.css);
+@import url(../blocks/section-text/__title/section-text__title.css);
+@import url(../blocks/intro/__image/intro__image.css);
 /*стили для intro*/
 
 /*стили для footer*/

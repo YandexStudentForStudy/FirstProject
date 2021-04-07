@@ -1,0 +1,6 @@
+.intro__image {
+  display: block;
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
