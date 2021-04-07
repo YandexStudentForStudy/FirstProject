@@ -1,0 +1,8 @@
+.travel__paragraph {
+  margin: 0;
+  font-size: 16px;
+}
+
+.travel__paragraph:nth-of-type(2) {
+  padding: 20px 0 20px;
+}

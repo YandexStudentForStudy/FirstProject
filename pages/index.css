@@ -19,6 +19,7 @@
 /*стили для content*/
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__intro/content__intro.css);
+@import url(../blocks/content/__travels/content__travels.css);
 /*стили для content*/
 
 /*стили для intro*/
@@ -28,6 +29,16 @@
 @import url(../blocks/section-text/__title/section-text__title.css);
 @import url(../blocks/intro/__image/intro__image.css);
 /*стили для intro*/
+
+/*стили для travels*/
+@import url(../blocks/travels/travels.css);
+@import url(../blocks/travel/travel.css);
+@import url(../blocks/travel/__image/travel__image.css);
+@import url(../blocks/travel/__text/travel__text.css);
+@import url(../blocks/travel/__title/travel__title.css);
+@import url(../blocks/travel/__paragraphs/travel__paragraphs.css);
+@import url(../blocks/travel/__paragraph/travel__paragraph.css);
+/*стили для travels*/
 
 /*стили для footer*/
 @import url(../blocks/footer/footer.css);
