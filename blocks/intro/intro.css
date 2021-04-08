@@ -1,6 +1,6 @@
 .intro {
   width: 90%;
   padding-bottom: 120px;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
 }

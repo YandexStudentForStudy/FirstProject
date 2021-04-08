@@ -25,6 +25,7 @@
 
 /*стили для intro*/
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__section-text/intro__section-text.css);
 @import url(../blocks/section-text/section-text.css);
 @import url(../blocks/section-text/__label/section-text__label.css);
 @import url(../blocks/section-text/__title/section-text__title.css);
@@ -57,7 +58,105 @@
 /*стили для footer*/
 
 
+@media (max-width: 1100px) {
+  .intro__image {
+    width: 400px;
+    height: 400px;
+  }
+}
 
+@media (max-width: 900px) {
+  .intro__image {
+    width: 350px;
+    height: 350px;
+  }
+}
 
+@media (max-width: 768px) {
+  .header {
+    padding: 45px 0 65px;
+  }
 
+  .menu__item {
+    margin-right: 50px;
+  }
+
+  .intro {
+    padding-bottom: 90px;
+  }
+
+  .intro__image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .section-text__label {
+    font-size: 12px;
+  }
+
+  .section-text__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header {
+    padding: 30px 0 40px;
+  }
+
+  .menu__item {
+    margin-right: 30px;
+  }
+
+  .menu__link {
+    font-size: 14px;
+  }
+
+  .menu__button {
+    font-size: 14px;
+  }
+
+  .intro__image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .section-text__label {
+    font-size: 10px;
+  }
+
+  .section-text__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    padding: 20px 0 30px;
+  }
+
+  .menu__item {
+    margin-right: 10px;
+  }
+
+  .menu__link {
+    font-size: 12px;
+  }
+
+  .menu__button {
+    font-size: 12px;
+  }
+
+  .intro {
+    padding-bottom: 50px;
+    grid-template-columns: 100%;
+    row-gap: 40px;
+  }
+
+  .intro__image {
+    width: 320px;
+    height: 320px;
+  }
+
+}
 

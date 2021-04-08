@@ -2,5 +2,6 @@
   display: block;
   width: 450px;
   height: 450px;
+  justify-self: center;
   object-fit: cover;
 }
