@@ -20,6 +20,7 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__intro/content__intro.css);
 @import url(../blocks/content/__travels/content__travels.css);
+@import url(../blocks/content/__people/content__people.css);
 /*стили для content*/
 
 /*стили для intro*/
@@ -42,6 +43,7 @@
 
 /*стили для people*/
 @import url(../blocks/people/people.css);
+@import url(../blocks/people/__table/people__table.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
