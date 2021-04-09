@@ -30,6 +30,13 @@
 @import url(../blocks/section-text/__label/section-text__label.css);
 @import url(../blocks/section-text/__title/section-text__title.css);
 @import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/clouds/clouds.css);
+@import url(../blocks/cloud/cloud.css);
+@import url(../blocks/floating/floating.css);
+@import url(../blocks/cloud/_floating/cloud_floating_first.css);
+@import url(../blocks/cloud/_floating/cloud_floating_second.css);
+@import url(../blocks/cloud/_floating/cloud_floating_third.css);
+@import url(../blocks/cloud/_floating//cloud_floating_fourth.css);
 /*стили для intro*/
 
 /*стили для travels*/
@@ -74,7 +81,7 @@
     font-size: 64px;
   }
 
-  .intro__image {
+  .clouds {
     width: 600px;
     height: 600px;
   }
@@ -110,13 +117,9 @@
 
 
 @media (max-width: 1100px) {
-  .intro__image {
+  .clouds {
     width: 400px;
     height: 400px;
-  }
-
-  .table {
-
   }
 
   .travel__text {
@@ -145,14 +148,13 @@
 }
 
 @media (max-width: 900px) {
-  .intro__image {
+  .clouds {
     width: 350px;
     height: 350px;
   }
 
   .travel__paragraph {
     width: 85%;
-
     padding: 0 0 10px 0;
   }
 
@@ -172,7 +174,7 @@
     padding-bottom: 90px;
   }
 
-  .intro__image {
+  .clouds {
     width: 300px;
     height: 300px;
   }
@@ -224,7 +226,7 @@
     font-size: 14px;
   }
 
-  .intro__image {
+  .clouds {
     width: 220px;
     height: 220px;
   }
@@ -295,7 +297,7 @@
     row-gap: 40px;
   }
 
-  .intro__image {
+  .clouds {
     width: 320px;
     height: 320px;
   }
