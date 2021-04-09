@@ -3,23 +3,8 @@
   width: 450px;
   height: 450px;
   justify-self: center;
-  background-image: url(../../images/intro-image.jpeg);
+  background-image: url(../../images/plane.jpeg);
   background-size: cover;
   background-position: center;
   overflow: hidden;
-}
-
-
-
-.cloud_floating_first {
-  animation: floating 20s infinite linear;
-}
-.cloud_floating_second {
-  animation: floating 40s infinite linear;
-}
-.cloud_floating_third {
-  animation: floating 60s infinite linear;
-}
-.cloud_floating_fourth {
-  animation: floating 80s infinite linear;
 }
