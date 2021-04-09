@@ -93,14 +93,16 @@
 
   .travel__paragraph {
     width: 85%;
-    font-size: 12px;
-    line-height: 1.1;
+
     padding: 0 0 10px 0;
   }
 
   .table {
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 35px;
+  }
+
+  .table__cell {
+    padding-top: 50px;
   }
 }
 
@@ -131,7 +133,7 @@
   }
 
   .travel__title {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .travel__paragraph {
@@ -141,6 +143,14 @@
 
   .travel__text {
     padding: 35px 0 55px 35px;
+  }
+
+  .people {
+    padding: 65px 0 90px;
+  }
+
+  .table__text {
+    line-height: 1.3;
   }
 }
 
@@ -176,24 +186,36 @@
 
   .travel {
     grid-template-columns: 1fr;
-    grid-template-rows: 320px;
+    grid-template-rows: calc(80vw);
   }
 /*модификатор для картинки что бы переопределить ее место в гриде*/
   .travel__image_start {
     grid-row-start: 1;
   }
   .travel__title {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 
   .travel__text {
-    padding: 20px 0 20px;
-    margin: 0 auto;
+    padding: 70px 0;
     width: 90%;
+    margin: 0 auto;
+  }
+
+  .travel__paragraph {
+    width: 60%;
   }
 
   .table {
     grid-template-columns: 1fr;
+  }
+
+  .table__cell {
+    width: 70%;
+  }
+
+  .footer__copyright {
+    font-size: 24px;
   }
 }
 
@@ -224,5 +246,31 @@
     width: 320px;
     height: 320px;
   }
+
+  .travel__text {
+    padding: 40px 0;
+  }
+
+  .travel__title {
+    padding-bottom: 30px;
+  }
+
+  .travel__paragraph {
+    width: 90%;
+  }
+
+  .people {
+    padding: 30px 0 50px;
+  }
+
+  .table__cell {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .footer__copyright {
+    padding: 150px 0;
+  }
+
 }
 
