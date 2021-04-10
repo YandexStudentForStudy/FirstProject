@@ -33,10 +33,10 @@
 @import url(../blocks/clouds/clouds.css);
 @import url(../blocks/cloud/cloud.css);
 @import url(../blocks/floating/floating.css);
-@import url(../blocks/cloud/_floating/cloud_floating_first.css);
-@import url(../blocks/cloud/_floating/cloud_floating_second.css);
-@import url(../blocks/cloud/_floating/cloud_floating_third.css);
-@import url(../blocks/cloud/_floating//cloud_floating_fourth.css);
+@import url(../blocks/cloud/_size/cloud_size_xs.css);
+@import url(../blocks/cloud/_size/cloud_size_s.css);
+@import url(../blocks/cloud/_size/cloud_size_m.css);
+@import url(../blocks/cloud/_size/cloud_size_l.css);
 /*стили для intro*/
 
 /*стили для travels*/
