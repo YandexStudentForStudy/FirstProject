@@ -9,3 +9,7 @@
   border-radius: 20px;
   font-family: 'Conamore', 'Arial', sans-serif;
 }
+
+.form-inner__element:focus {
+  outline: none;
+}
