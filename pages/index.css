@@ -6,6 +6,23 @@
 @import url(../blocks/page/page.css);
 /*стили для всей страницы*/
 
+/*стили для popup*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__area/popup__area.css);
+@import url(../blocks/popup/__body/popup__body.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__close/popup__close.css);
+/*стили для popup*/
+
+/*стили для form*/
+@import url(../blocks/form/form.css);
+@import url(../blocks/form-inner/form-inner.css);
+@import url(../blocks/form-inner/__title/form-inner__title.css);
+@import url(../blocks/form-inner/__element/form-inner__element.css);
+@import url(../blocks/form-inner/__submit/form-inner__submit.css);
+@import url(../blocks/form-inner/__text/form-inner__text.css);
+/*стили для form*/
+
 /*стили для header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -64,4 +81,5 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /*стили для footer*/
+
 
