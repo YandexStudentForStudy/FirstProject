@@ -11,6 +11,12 @@
 
 @media (min-width: 1600px) {
   .table__heading {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .table__heading {
     font-size: 26px;
   }
 }

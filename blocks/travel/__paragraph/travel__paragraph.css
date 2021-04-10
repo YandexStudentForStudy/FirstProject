@@ -15,8 +15,14 @@
 
 @media (min-width: 1600px) {
   .travel__paragraph {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
+  }
+}
+
+@media (min-width: 2000px) {
+  .travel__paragraph {
+    font-size: 24px;
   }
 }
 
