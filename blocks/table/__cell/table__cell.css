@@ -1,3 +1,22 @@
 .table__cell {
   padding-top: 100px;
 }
+
+@media (max-width: 1100px) {
+  .table__cell {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .table__cell {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .table__cell {
+    padding-top: 30px;
+    width: 100%;
+  }
+}

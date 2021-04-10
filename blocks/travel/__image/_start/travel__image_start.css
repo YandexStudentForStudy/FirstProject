@@ -1,0 +1,6 @@
+@media (max-width: 650px) {
+  /*модификатор для картинки, чтобы переопределить ее место в гриде*/
+    .travel__image_start {
+      grid-row-start: 1;
+    }
+  }

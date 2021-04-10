@@ -7,3 +7,21 @@
   color: #000;
   white-space: pre-line;
 }
+
+@media (min-width: 1600px) {
+  .section-text__title {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-text__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .section-text__title {
+    font-size: 24px;
+  }
+}

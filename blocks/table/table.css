@@ -5,3 +5,16 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 25px;
 }
+
+@media (max-width: 1100px) {
+  .table {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+  }
+}
+
+@media (max-width: 650px) {
+  .table {
+    grid-template-columns: 1fr;
+  }
+}

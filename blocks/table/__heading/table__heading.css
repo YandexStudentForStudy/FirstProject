@@ -8,3 +8,9 @@
   font-weight: bold;
   color: #000;
 }
+
+@media (min-width: 1600px) {
+  .table__heading {
+    font-size: 26px;
+  }
+}

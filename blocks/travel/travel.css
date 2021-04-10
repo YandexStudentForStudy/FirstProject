@@ -4,3 +4,10 @@
   grid-template-rows: calc(42vw);
   background-color: #F2F2F2;
 }
+
+@media (max-width: 650px) {
+  .travel {
+    grid-template-columns: 1fr;
+    grid-template-rows: calc(80vw);
+  }
+}

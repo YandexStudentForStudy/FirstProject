@@ -4,3 +4,17 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
 }
+
+@media (max-width: 768px) {
+  .intro {
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 450px) {
+  .intro {
+    padding-bottom: 50px;
+    grid-template-columns: 100%;
+    row-gap: 40px;
+  }
+}

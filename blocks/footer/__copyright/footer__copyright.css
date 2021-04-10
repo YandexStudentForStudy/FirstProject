@@ -6,3 +6,21 @@
   font-weight: normal;
   color: #000;
 }
+
+@media (min-width: 1600px) {
+  .footer__copyright {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer__copyright {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer__copyright {
+    padding: 100px 0;
+  }
+}

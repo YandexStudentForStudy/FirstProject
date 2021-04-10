@@ -6,3 +6,33 @@
   font-weight: 500;
   color: #000;
 }
+
+@media (min-width: 1600px) {
+  .travel__title {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .travel__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .travel__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 650px) {
+  .travel__title {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .travel__title {
+    padding-bottom: 30px;
+  }
+}
